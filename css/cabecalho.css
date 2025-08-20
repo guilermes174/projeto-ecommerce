@@ -104,10 +104,6 @@
     flex-direction: row;
   }
 
-  .menu-hamburguer {
-    display: none;
-  }
-
   .cabecalho .menu-principal ul {
     gap: 1rem;
   }
@@ -119,7 +115,7 @@
 
 @media (min-width: 1170px) {
   .cabecalho {
-    max-width: 1400px;
+    max-width: 1170px;
     margin: 0 auto;
   }
 
