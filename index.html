@@ -63,15 +63,15 @@
             <section class="produtos">
                 <h2>Produtos</h2>
                 <ul>
-                    <li class="produto">
+                    <li class="produto" data-id="camiseta-roxa">
                         <figure>
                             <img src="./assets/images/camiseta_roxa.jpg" alt="Camiseta Dev em Dobro - Roxa">
-                            <figcaption>Camiseta Dev em Dobro - Roxa</figcaption>
+                            <figcaption class="nome">Camiseta Dev em Dobro - Roxa</figcaption>
                         </figure>
                         <div class="informacoes">
                             <span><strong>Cor:</strong> roxa</span>
                             <span><strong>Tamanho:</strong> M</span>
-                            <span class="preço">R$ 89,00</span>
+                            <span class="preco">R$ 89,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -82,7 +82,7 @@
                         </figure>
                         <div class="informacoes">
                             <span>Cor: Branca</span>
-                            <span class="preço">R$ 100,00</span>
+                            <span class="preco">R$ 100,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -93,7 +93,7 @@
                         </figure>
                         <div class="informacoes">
                             <span>Cor: Branca</span>
-                            <span class="preço">R$ 100,00</span>
+                            <span class="preco">R$ 100,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -104,7 +104,7 @@
                         </figure>
                         <div class="informacoes">
                             <span>Cor: Branca</span>
-                            <span class="preço">R$ 100,00</span>
+                            <span class="preco">R$ 100,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -115,7 +115,7 @@
                         </figure>
                         <div class="informacoes">
                             <span>Cor: Branca</span>
-                            <span class="preço">R$ 100,00</span>
+                            <span class="preco">R$ 100,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -126,7 +126,7 @@
                         </figure>
                         <div class="informacoes">
                             <span>Cor: Branca</span>
-                            <span class="preço">R$ 100,00</span>
+                            <span class="preco">R$ 100,00</span>
                             <button class="adicionar-ao-carrinho">Adicionar ao carrinho</button>
                         </div>
                     </li>
@@ -204,7 +204,7 @@
                                     <td class="td-preco-unitario">R$ 89,00</td>
                                     <td class="td-quantidade"><input type="number" value="1" min="1"></td>
                                     <td class="td-preco-total">R$ 89,00</td>
-                                    <td><button class="btn-remover"  id="deletar"></button></td>
+                                    <td><button class="btn-remover" id="deletar"></button></td>
                                 </tr>
                                 <tr>
                                     <td class="td-produto">
@@ -231,8 +231,10 @@
             </div>
         </div>
 
-        <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+        <script src="https://unpkg.com/micromodal/dist/micromodal.min.js
+        "></script>
 
+<script src="./js/carrinho.js"></script>
 
 </body>
 
